@@ -1,0 +1,302 @@
+.tt-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tt-1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 41px;
+  margin-bottom: 23px;
+}
+.tt-1 h2 {
+  text-align: center;
+  font-size: 26px;
+  color: rgb(9, 63, 124);
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+  align-items: center;
+}
+.tt-1-button {
+  padding-top: 10px;
+  margin-top: 20px;
+  left: 17rem;
+  top: 11rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.2s ease, visibility 0s;
+  border-radius: 50px;
+  background-image: url("../bcgImgs/button-background.jpg");
+  background-repeat: no-repeat;
+  width: 327px;
+  height: 56px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 50px;
+}
+.tt-1-button:hover {
+  background-position-x: -500px;
+  background-position-y: -500px;
+}
+.tt-1-button a {
+  transition: inherit;
+  font-family: "Playfair W01 Bold", playfair display, serif;
+  color: #ffffff;
+  letter-spacing: 0.15em;
+  width: 100%;
+  font-size: 18px;
+  text-decoration: none;
+}
+.tt-1-title {
+  align-items: baseline;
+  padding-top: 20px;
+}
+.tt-2 {
+  width: 744px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 41px;
+  text-align: justify;
+}
+.tt-2 h6 {
+  line-height: normal;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  color: rgb(9, 63, 124);
+}
+.tt-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 1000px;
+  margin-top: 25px;
+}
+.tt-3-div {
+  width: 399px;
+  height: 260px;
+  object-fit: cover;
+}
+.tt-3-div img {
+  width: 399px;
+  height: 260px;
+  object-fit: cover;
+}
+.tt-4 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 700px;
+  margin-top: 15px;
+}
+.tt-4 button {
+  width: 201px;
+  height: 40px;
+  font-size: 18px;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  background-color: rgb(13 94 186);
+  border: none;
+  color: white;
+}
+.tt-4 a {
+  width: 201px;
+  height: 40px;
+  font-size: 18px;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  border: none;
+  color: white;
+}
+.tt-4 button:hover {
+  background-color: rgb(178 224 187);
+  color: rgb(13 94 186);
+  transition: var(
+    --trans1,
+    border-color 0.4s ease 0s,
+    background-color 0.4s ease 0s
+  );
+}
+.tt-5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  background-color: #0d5eba;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+.tt-5 h2 {
+  text-align: center;
+  font-size: 26px;
+  color: white;
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+  align-items: center;
+}
+.tt-5-title {
+  margin-bottom: 30px;
+}
+.tt-5-texts {
+  width: 725px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tt-5-texts h6 {
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+
+.tt-6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+.tt-6 h2 {
+  text-align: center;
+  font-size: 26px;
+  color: #0d5eba;
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+  align-items: center;
+}
+.tt-6-title {
+  margin-bottom: 30px;
+}
+.tt-6-texts {
+  width: 939px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tt-6-texts h6 {
+  text-align: justify;
+  font-size: 20px;
+  color: #0d5eba;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.tt-7 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.tt-7-divs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+.tt-7-subject {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.tt-7-s-i {
+  width: 220px;
+  height: 167px;
+}
+.tt-7-s-i img {
+  width: 220px;
+  height: 167px;
+
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.tt-7-s-inf {
+  margin-bottom: 49px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.tt-7-s-inf h4 {
+  color: #577083;
+  text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+  font-size: 18px;
+}
+.tt-7-s-inf a {
+  color: #577083;
+  text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+  font-size: 18px;
+}
+.tt-7-s-inf p {
+  font-size: 20px;
+  line-height: 1.5em;
+  text-align: center;
+  color: #0d5eba;
+  font-family: "Avenir W01 Light";
+  font-weight: bold;
+}
+@media (max-width: 1000px) {
+  .tt-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+  }
+  .tt-1-button {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .tt-2 {
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  .tt-3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tt-3-div {
+    margin-bottom: 20px;
+  }
+  .tt-4 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+  }
+  .tt-5-texts {
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  .tt-6-texts {
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  .tt-7 {
+    width: 500px;
+  }
+}

@@ -1,0 +1,135 @@
+.reklama-main {
+  width: 557px;
+  z-index: 1;
+  position: fixed;
+  right: -600px;
+  top: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  transition: right 0.5s ease-in-out;
+}
+
+.reklama-main.show {
+  right: 0;
+}
+
+.reklama-1 {
+  margin-top: 23px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.reklama-1 h2 {
+  font-size: 26px;
+  color: rgb(9, 63, 124);
+  font-family: "Helvetica W01 Bold";
+}
+
+.izlaz {
+  width: 35px;
+  height: 35px;
+}
+
+.izlaz svg {
+  fill: rgb(9, 63, 124);
+  width: 35px;
+  height: 35px;
+}
+
+.reklama-naslov {
+  width: 392px;
+}
+
+.facebook-link {
+  margin-top: 20px;
+}
+
+.facebook-link iframe {
+  border: none;
+  visibility: visible;
+}
+
+.reklama-3 {
+  height: 401.667px;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+@media (max-width: 1000px) {
+  .reklama-main {
+    width: 90%;
+    right: -100%;
+  }
+
+  .reklama-main.show {
+    right: 0;
+  }
+
+  .reklama-1 h2 {
+    font-size: 20px;
+  }
+
+  .izlaz {
+    width: 30px;
+    height: 30px;
+  }
+
+  .izlaz svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .reklama-naslov {
+    width: 80%;
+  }
+
+  .facebook-link {
+    margin-top: 15px;
+  }
+
+  .reklama-3 {
+    height: auto;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .reklama-main {
+    width: 100%;
+  }
+
+  .reklama-1 {
+    flex-direction: column;
+  }
+
+  .reklama-1 h2 {
+    font-size: 18px;
+  }
+
+  .izlaz {
+    width: 25px;
+    height: 25px;
+  }
+
+  .izlaz svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .reklama-naslov {
+    width: 90%;
+  }
+
+  .facebook-link {
+    margin-top: 10px;
+  }
+
+  .reklama-3 {
+    padding: 10px;
+  }
+}

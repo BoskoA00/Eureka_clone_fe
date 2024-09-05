@@ -1,0 +1,84 @@
+.tac-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tac-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 60%;
+  padding-top: 30px;
+}
+.tac-1-title {
+  margin-bottom: 50px;
+}
+.tac-1 h4 {
+  color: RGB(9, 63, 124);
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+}
+.tac-1 p {
+  color: RGB(9, 63, 124);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.tac-1-text-1 {
+  display: flex;
+  width: 730px;
+}
+.tac-1-text-2 {
+  display: flex;
+  width: 730px;
+}
+.tac-1-text-3 {
+  display: flex;
+  width: 730px;
+}
+.tac-1-text-4 {
+  display: flex;
+  width: 730px;
+}
+.tac-1-text-5 {
+  display: flex;
+  width: 730px;
+}
+.tac-1-text-6 {
+  display: flex;
+  width: 730px;
+}
+.tac-1-text-7 {
+  display: flex;
+  width: 730px;
+}
+.tac-1-text-8 {
+  display: flex;
+  width: 730px;
+  margin-bottom: 30px;
+}
+.tac-1-text-8 a {
+  text-decoration: underline;
+  color: RGB(9, 63, 124);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+@media (max-width: 1000px) {
+  .tac-main {
+    align-items: start;
+    padding-left: 20px;
+    width: auto;
+  }
+  .tac-1-text-1 {
+    width: 500px;
+  }
+  .tac-main div {
+    flex-wrap: wrap;
+    width: 500px;
+  }
+}

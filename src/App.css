@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Helvetica W01 Bold";
+  src: url("/src/CSS/Helvetica\ W01\ Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Avenir W01 Light";
+  src: url("/src/CSS/Avenir\ LT\ 35\ Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "Helvetica W01 Light";
+  src: url("/src/CSS/Helvetica\ W01\ Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "Helvetica W01 Roman";
+  src: url("/src/CSS/Helvetica\ W01\ Roman.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
 }
-
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "Playfair W01 Bold";
+  src: url("./CSS/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "Futura W01 Medium";
+  src: url("./CSS/Futura\ LT\ W01\ Medium.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir W01 Heavy";
+  src: url("./CSS/Avenir\ Heavy.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f3f3f3;
+  user-select: none;
 }

@@ -1,0 +1,119 @@
+.sn-main {
+  width: 100%;
+  background-color: #0d5eba;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sn-logo-container {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: white;
+}
+.sn-logo-img {
+  width: 100px;
+  height: 100px;
+}
+.sn-image {
+  width: 100px;
+  height: 100px;
+}
+.sn-logo-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.sn-logo-text h3 {
+  line-height: 1.3em;
+  text-align: center;
+  font-size: 14px;
+  color: #0d5eba;
+}
+.smaller-nav-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.smaller-nav-button img {
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar {
+  background-color: #0d5eba;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-left: 10px;
+}
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+.sidebar-links a {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 50px;
+  text-decoration: none;
+  transform: none;
+  font-family: "Helvetica W01 Roman";
+  letter-spacing: 0;
+}
+.sidebar-links span {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 50px;
+  text-decoration: none;
+  transform: none;
+  font-family: "Helvetica W01 Roman";
+  letter-spacing: 0;
+}
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.sn-dropdown {
+  padding-left: 10px;
+}
+.sn-dropdown a {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 50px;
+  text-decoration: none;
+  transform: none;
+  font-family: "Helvetica W01 Roman";
+  letter-spacing: 0;
+}

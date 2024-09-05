@@ -1,0 +1,1395 @@
+.app-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+.app-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 100px;
+}
+.app-button {
+  width: auto;
+  height: auto;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-align: center;
+  align-items: center;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(14, 14, 14);
+  padding: 0px;
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px) scale(1, 1);
+  transition: transform 50ms ease 0s;
+  min-height: 36px;
+  margin-right: 20px;
+}
+
+.app-button::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+  transition: width 0.5s ease;
+}
+
+.app-button:hover::before {
+  width: 100%;
+}
+.app-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-title h1 {
+  box-sizing: border-box;
+  font-size: 22px;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(14, 14, 14);
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 28px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 0px;
+}
+.app-text-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 638px;
+  margin-top: 40px;
+}
+.app-text-1 p {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(14, 14, 14);
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+}
+.app-d-t {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.app-d-t div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.app-d-t h2 {
+  line-height: 18px;
+  font-size: 18px;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(14, 14, 14);
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+.app-text-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 900px;
+}
+.app-text-2 h3 {
+  margin-bottom: 11px;
+  margin-top: 0px;
+  color: rgb(14, 14, 14);
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+.app-text-3 {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 1px 0px;
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 33px;
+  margin-top: 6px;
+  margin-bottom: 33px;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: start;
+  width: 900px;
+}
+.app-text-3-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  width: 658px;
+  margin-bottom: 20px;
+}
+.app-t-3-1-p1 {
+  margin: 0px;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(14, 14, 14);
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+.app-t-3-1-p2 {
+  margin: 0px;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(73, 73, 73);
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+.app-text-3-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  width: 615px;
+  margin-bottom: 10px;
+}
+.app-text-3-2 p {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(73, 73, 73);
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0px;
+}
+.app-appointemnt-times {
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 1px 0px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app-at-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.app-at-title span {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(14, 14, 14);
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 11px;
+  padding-right: 6px;
+  font-size: 11px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100px;
+}
+.app-button-2 {
+  width: 100%;
+  height: auto;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-align: center;
+  align-items: center;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 11px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(14, 14, 14);
+  padding: 0px;
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px) scale(1, 1);
+  transition: transform 50ms ease 0s;
+  min-height: 20px;
+  text-overflow: ellipsis;
+  font-size: 11px !important;
+}
+.schedule-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  width: 900px;
+  background-color: rgb(255, 255, 255);
+}
+
+.day-schedule {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.day-title {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(14, 14, 14);
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  white-space: nowrap;
+  margin: 0px;
+}
+
+.day-date {
+  font-size: 16px;
+  color: rgb(73, 73, 73);
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 22px;
+  white-space: nowrap;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.day-times {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.time-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-transform: none;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-align: center;
+  align-items: center;
+  border-color: rgb(224, 224, 224);
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  padding: 22px 16px;
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(14, 14, 14);
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px) scale(1, 1);
+  transition: transform 50ms ease 0s;
+  min-height: 55px;
+  flex-direction: column;
+  grid-column: 1;
+  width: 183px;
+}
+
+.time-button p {
+  color: rgb(14, 14, 14);
+  margin: 0px;
+  line-height: 18px;
+  font-weight: 600;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.next-days-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: rgb(14, 14, 14);
+  outline: none;
+  transition: color 0.3s;
+}
+
+.next-days-button:hover {
+  color: rgb(100, 100, 100);
+}
+.app-appointemnt-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+.app-a-f-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 900px;
+}
+.app-a-f-1 h3 {
+  margin-bottom: 6px;
+  margin-top: 0px;
+  color: rgb(14, 14, 14);
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+.app-a-f-2 {
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 1px 0px;
+  padding: 33px;
+  margin-bottom: 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  padding-left: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.app-a-f-2 label {
+  margin-bottom: 0px;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(73, 73, 73);
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  line-height: 16px;
+}
+.app-a-f-2-i-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  width: 420px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.app-a-f-2-i-div input {
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  color: rgb(14, 14, 14);
+  flex: 1 1 0%;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 22px;
+  padding: 0px;
+  text-align: left;
+  caret-color: black;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  height: 44px;
+  width: 100%;
+  margin-bottom: 11px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.error-span {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(195, 45, 56);
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 22px;
+}
+.phone-input-div {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.phone-input-div input {
+  border: none;
+  height: 20px;
+}
+
+.phone-input-div::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+  transition: width 0.5s ease;
+}
+
+.phone-input-div:focus-within::after {
+  width: 100%;
+}
+.phone-input-div input {
+  border: none;
+  height: 20px;
+  margin: 5px;
+}
+.phone-input-div input:focus {
+  border: none;
+}
+.app-f-m-l {
+  margin-top: 30px;
+}
+.app-f-m-l h3 {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(14, 14, 14);
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.app-f-checkbox-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app-f-cb input {
+  cursor: pointer;
+
+  width: 15px;
+  height: 15px;
+}
+.cb-span {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(14, 14, 14);
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0px;
+  margin-left: 20px;
+}
+.app-f-button {
+  margin-top: 40px;
+}
+.app-f-button button {
+  margin-top: 33px;
+  height: auto;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-align: center;
+  align-items: center;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  padding: 0px 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(47, 47, 186);
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  position: relative; /* Add this */
+  z-index: 0; /* Add this */
+  min-height: 55px;
+}
+
+.app-f-button button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(66, 74, 227);
+  z-index: -1;
+  transition: width 0.5s cubic-bezier(0.66, 0, 0.34, 1);
+}
+
+.app-f-button button:hover::before {
+  width: 100%;
+}
+.app-checkout {
+  width: 900px;
+}
+.app-co-title {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app-co-title h3 {
+  margin-bottom: 6px;
+  margin-top: 0px;
+  color: rgb(14, 14, 14);
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+.app-co-container {
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 1px 0px;
+  padding: 33px;
+  margin-bottom: 33px;
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  padding: 33px;
+}
+.app-co-c-1 {
+  margin-bottom: 33px;
+}
+.app-co-c-1 h3 {
+  margin-bottom: 33px;
+  margin-top: 0px;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(14, 14, 14);
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 22px;
+  font-size: 16px !important;
+}
+.app-co-c-2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-color: rgb(224, 224, 224);
+  border-style: solid;
+  border-width: 1px;
+  outline-color: rgb(14, 14, 14);
+  outline-offset: 2px;
+  padding: 11px;
+}
+.app-checkout-main {
+  display: flex;
+  flex-direction: column;
+}
+.app-co-container-1 {
+  margin: 10px;
+  width: 50%;
+}
+.app-co-container-2 {
+  width: 50%;
+  margin: 10px;
+}
+.ap-paymentMethod {
+  display: flex;
+  flex-direction: column;
+}
+.ap-pm-1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  border-color: rgb(224, 224, 224);
+  border-style: solid;
+  border-width: 1px;
+  outline-color: rgb(14, 14, 14);
+  outline-offset: 2px;
+  padding: 11px;
+  margin-bottom: 33px;
+}
+.ap-pm-1-1 {
+  display: flex;
+  flex-direction: column;
+}
+.ap-checkBoxDivs {
+  margin-bottom: 33px;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-left: 15px;
+  align-items: center;
+}
+.ap-checkBoxDivs h5 {
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0px;
+  color: rgb(14, 14, 14);
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ap-creditCardButton {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-align: center;
+  align-items: center;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  padding: 0px 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(47, 47, 186);
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px) scale(1, 1);
+  transition: transform 50ms ease 0s;
+  min-height: 55px;
+}
+.logForm-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #433e3e;
+  z-index: 1;
+  opacity: 0.4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.logForm-container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 64px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 1px 0px;
+  transition-duration: 0ms;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 27px 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  top: 15%;
+  align-items: center;
+  left: 25%;
+  opacity: 1;
+  width: 800px;
+  z-index: 100;
+  overflow: hidden auto;
+}
+.logForm-buttons {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+}
+.logForm-title {
+  width: 50%;
+  display: flex;
+}
+.logForm-title h2 {
+  margin: 0px;
+  color: rgb(14, 14, 14);
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+}
+.logForm-label {
+  width: 50%;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.logForm-label label {
+  margin-bottom: 0px;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(73, 73, 73);
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  line-height: 16px;
+}
+.logForm-input {
+  width: 50%;
+  display: flex;
+}
+.logForm-input input {
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  color: rgb(14, 14, 14);
+  flex: 1 1 0%;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 22px;
+  padding: 0px;
+  text-align: left;
+  caret-color: black;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  height: 44px;
+  width: 100%;
+  margin-bottom: 0px;
+  font-size: 14px !important;
+}
+.logForm-password-div {
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 50%;
+}
+.logForm-password-div input {
+  width: 100%;
+}
+.logForm-reveal-button {
+  background: transparent;
+  border: none;
+  margin: 4px 0px 0px -44px;
+  padding: 0px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  line-height: 9px;
+}
+.logForm-reveal-button:hover {
+  background-color: gray;
+}
+.logForm-reveal-button img {
+  height: 100%;
+  width: 100%;
+}
+.logForm-login-button button {
+  margin-top: 33px;
+  width: 100%;
+  height: auto;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-align: center;
+  align-items: center;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  padding: 0px 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(47, 47, 186);
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  min-height: 55px;
+}
+
+.logForm-login-button button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(66, 74, 227);
+  z-index: -1;
+  transition: width 0.5s cubic-bezier(0.66, 0, 0.34, 1);
+}
+
+.logForm-login-button button:hover::before {
+  width: 100%;
+}
+
+.logForm-login-button {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.logForm-login-button button.disabled {
+  background-color: rgb(242, 242, 242);
+  color: rgb(141, 141, 141);
+  cursor: not-allowed;
+}
+
+.logForm-login-button button.disabled:hover::before {
+  width: 0;
+}
+
+.regForm-txt-1 {
+  width: 50%;
+  display: flex;
+}
+.regForm-txt-1 h3 {
+  font-weight: 600;
+  color: rgb(73, 73, 73);
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.regForm-cb {
+  width: 50%;
+  display: flex;
+  margin-top: 20px;
+}
+.regForm-cb-label {
+  margin-bottom: 0px;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(73, 73, 73);
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  line-height: 16px;
+  width: 360px;
+  margin-left: 20px;
+}
+.regForm-cb-label-p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: gray;
+  line-height: 16px;
+}
+.regForm-container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 64px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 1px 0px;
+  transition-duration: 0ms;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 27px 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  top: 5%;
+  align-items: center;
+  left: 25%;
+  opacity: 1;
+  width: 800px;
+  z-index: 100;
+  padding-bottom: 50px;
+  overflow: hidden auto;
+}
+.disabled-button {
+  background-color: gray;
+  color: white;
+}
+.error-span {
+  width: 50%;
+  color: red;
+}
+.email-button {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  width: 70%;
+}
+.dropdown-menu button {
+  color: rgb(14, 14, 14);
+  padding: 11px 16px;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  white-space: nowrap;
+  text-align: left;
+  width: 100%;
+}
+.dropdown-menu button:hover {
+  background-color: rgba(47, 47, 186, 0.125);
+  cursor: pointer;
+}
+.email-button button {
+  color: rgb(14, 14, 14);
+  width: auto;
+  height: auto;
+  margin-left: 6px;
+  margin-right: 6px;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-align: center;
+  align-items: center;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding: 0px;
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px) scale(1, 1);
+  transition: transform 50ms ease 0s;
+  min-height: 36px;
+}
+.appointments-container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 64px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 1px 0px;
+  transition-duration: 0ms;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 27px 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  align-items: center;
+  left: 25%;
+  opacity: 1;
+  width: 800px;
+  height: 100%;
+  z-index: 100;
+  overflow: hidden auto;
+}
+.appointments-title {
+  width: 50%;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.appointments-title h2 {
+  margin: 0px;
+  color: rgb(14, 14, 14);
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+}
+.appointments-nav {
+  width: 80%;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  display: flex;
+  justify-content: flex-start;
+}
+.appointments-nav button {
+  background-color: inherit;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 50px;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  width: 70px;
+  color: rgb(14, 14, 14);
+  font-weight: 600;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  transition: all 0.2s cubic-bezier(0.66, 0, 0.34, 1);
+}
+.upcoming-apps {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.apps-1 {
+  width: 100%;
+  color: rgb(73, 73, 73);
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+.newApps-button {
+  width: 80%;
+}
+.newApps-button button {
+  margin-top: 33px;
+  width: 100%;
+  height: auto;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-align: center;
+  align-items: center;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  padding: 0px 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(47, 47, 186);
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  min-height: 55px;
+}
+
+.newApps-button button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(66, 74, 227);
+  z-index: -1;
+  transition: width 0.5s cubic-bezier(0.66, 0, 0.34, 1);
+}
+
+.newApps-button button:hover::before {
+  width: 100%;
+}
+.prev-apps {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.codesForm-container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 64px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 1px 0px;
+  transition-duration: 0ms;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 27px 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  align-items: center;
+  left: 25%;
+  opacity: 1;
+  width: 800px;
+  height: 100%;
+  z-index: 100;
+  overflow: hidden auto;
+}
+.timezone-container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 64px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 1px 0px;
+  transition-duration: 0ms;
+  box-sizing: border-box;
+  padding: 27px 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  top: 5%;
+  left: 35%;
+  opacity: 1;
+  width: 500px;
+  z-index: 100;
+  padding-bottom: 50px;
+  overflow: auto;
+  max-height: 1000px;
+}
+
+.tz-titles {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tz-buttons {
+  width: 80%;
+  max-height: 300px;
+}
+
+.tz-button {
+  height: 50px;
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: rgb(14, 14, 14);
+  position: relative;
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .app-text-1 {
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  .app-text-2 {
+    width: 500px;
+  }
+  .app-text-3 {
+    width: 500px;
+  }
+  .app-text-3-2 {
+    flex-wrap: wrap;
+    width: 400px;
+  }
+  .app-appointemnt-times {
+    width: 500px;
+  }
+  .schedule-container {
+    width: 500px;
+    overflow: auto;
+  }
+  .app-appointment-form {
+    width: 500px;
+  }
+  .app-checkout {
+    width: 500px;
+  }
+  .app-co-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  .app-co-container-1 {
+    width: 100%;
+  }
+  .app-co-container-2 {
+    width: 100%;
+  }
+  .timezone-container {
+    width: 500px;
+    left: 10%;
+  }
+  .regForm-container {
+    width: 500px;
+    left: 10%;
+  }
+  .regForm-cb {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .regForm-cb-label {
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(73, 73, 73);
+    font-weight: 600;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    line-height: 16px;
+    margin-left: 20px;
+  }
+  .logForm-container {
+    width: 500px;
+    left: 10%;
+  }
+  .appointments-container {
+    width: 500px;
+    left: 10%;
+  }
+  .codesForm-container {
+    width: 500px;
+    left: 10%;
+  }
+  .apps-1 {
+    margin-top: 40px;
+  }
+}

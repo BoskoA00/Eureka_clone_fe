@@ -1,0 +1,363 @@
+.oc-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.oc-1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 41px;
+  margin-bottom: 23px;
+}
+
+.oc-1 h2 {
+  text-align: center;
+  font-size: 26px;
+  color: rgb(9, 63, 124);
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+}
+
+.oc-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oc-2-1 img {
+  width: 489px;
+  height: 326px;
+  object-fit: cover;
+}
+
+.oc-2-2 {
+  margin-left: 20px;
+  width: 472px;
+  height: auto;
+}
+
+.oc-2-2 h6 {
+  line-height: normal;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  color: rgb(9, 63, 124);
+}
+
+.oc-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.oc-3-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 460px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.oc-3-1-button {
+  width: 100%;
+  display: flex;
+}
+
+.oc-3-1-button button {
+  padding-top: 10px;
+  width: 388px;
+  height: 50px;
+  background-color: rgb(9, 63, 124);
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 19px;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  transition: var(--trans2, color 0.4s ease 0s);
+  margin-left: 30px;
+  border: none;
+  margin-top: 30px;
+}
+
+.oc-3-1-button button:hover {
+  background-color: white;
+  color: rgb(9, 63, 124);
+  border: 2px solid rgb(13 94 186);
+  transition: var(--trans2, color 0.4s ease 0s);
+}
+
+.oc-3-1-button a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: normal;
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.oc-3-1-button a:hover {
+  background-color: white;
+  color: rgb(9, 63, 124);
+  transition: var(--trans2, color 0.4s ease 0s);
+}
+
+.oc-3-2 {
+  width: 472px;
+  height: auto;
+}
+
+.oc-3 h6 {
+  line-height: normal;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  color: rgb(9, 63, 124);
+}
+
+.oc-4 {
+  padding-top: 40px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.oc-4-titles {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.oc-4-titles div {
+  margin: 10px;
+}
+
+.oc-4 h2 {
+  text-align: center;
+  font-size: 26px;
+  color: rgb(9, 63, 124);
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+}
+
+.oc-4-button {
+  width: 250px;
+  height: 64px;
+  margin-right: 250px;
+  margin-left: 100px;
+}
+
+.oc-4-button button {
+  width: 100%;
+  background-color: rgb(9, 63, 124);
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 24px;
+  height: 59px;
+  font-weight: 700;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  border: none;
+  transition: var(--trans2, color 0.4s ease 0s);
+}
+
+.oc-4-button button:hover {
+  background-color: rgb(178 224 187);
+  color: rgb(9, 63, 124);
+  border: 2px solid rgb(13 94 186);
+  transition: var(--trans2, color 0.4s ease 0s);
+  border: none;
+}
+
+.oc-5 {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.oc-55 {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: white;
+  width: 80%;
+  align-items: center;
+}
+.oc-5-subject {
+  width: 306px;
+  margin: 15px 25px 15px 25px;
+  box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.oc-5-s-img {
+  width: 306px;
+  height: 226px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  position: relative;
+}
+
+.oc-5-s-img img {
+  width: 306px;
+  height: 226px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.oc-5-s-t {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  color: RGB(87, 112, 131);
+  padding: 5px 10px;
+  width: 150px;
+  height: auto;
+}
+.oc-5-s-t h4 {
+  line-height: normal;
+  text-align: start;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #577083;
+  letter-spacing: 0.08em;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.oc-5-s-i {
+  padding: 10px;
+}
+
+.oc-5-s-d {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  font-size: 14px;
+  color: RGB(13, 94, 186);
+  margin-top: 20px;
+}
+
+.oc-5-s-dsc {
+  width: 100%;
+  justify-content: flex-start;
+  line-height: 1.5em;
+  flex-wrap: wrap;
+  font-size: 18px;
+  color: RGB(87, 112, 131);
+  margin-top: 10px;
+  padding-left: 10px;
+  font-family: "Avenir W01 Light";
+}
+
+.oc-5-s-pai {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.oc-5-s-p {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: RGB(87, 112, 131);
+  font-family: "Avenir W01 Light";
+}
+
+.oc-5-s-p2 {
+  font-size: 26px;
+  color: rgb(13 94 186);
+  font-weight: bold;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.oc-5-s-inf {
+  width: 300px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.oc-5-s-inf button {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: normal;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(13 94 186);
+  color: white;
+  border: none;
+  margin-left: 30px;
+}
+.oc-5-s-inf a {
+  text-decoration: none;
+}
+.oc-5-s-inf button:hover {
+  color: rgb(13 94 186);
+  border: none;
+  transition: var(--trans2, color 0.4s ease 0s);
+  background-color: rgb(178 224 187);
+}
+@media (max-width: 1000px) {
+  .oc-2 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .oc-2-2 {
+    margin: 0;
+  }
+  .oc-3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .oc-3-2 {
+    margin-top: 20px;
+  }
+  .oc-4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .oc-4-button {
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .oc-55 {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    width: 500px;
+    align-items: center;
+  }
+}

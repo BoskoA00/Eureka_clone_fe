@@ -1,0 +1,226 @@
+.calculator-main {
+  width: 332px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 2px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #0d5eba;
+  padding: 5px 10px;
+  overflow-y: auto;
+  margin-bottom: 30px;
+}
+.calculator-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.calculator-title {
+  display: flex;
+  background-color: rgb(235, 235, 235);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+.cc-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cc-title h3 {
+  color: rgba(0, 0, 0, 1) !important;
+  font-family: "Avenir W01 Heavy";
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 1;
+}
+.cc-close {
+  width: 30px;
+  height: 30px;
+}
+.cc-close svg {
+  fill: #0d5eba;
+  width: 30px;
+  height: 30px;
+}
+.calculator-2 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ps-fees {
+  display: flex;
+  flex-direction: column;
+}
+.ps-fees-1 {
+  margin-left: 15px;
+}
+.ps-fees-1 label {
+  font-family: "Avenir W01 Heavy";
+  font-weight: bold;
+  font-size: 13px;
+}
+.ps-fees-2 {
+  margin-left: 15px;
+}
+.ps-fees-2 p {
+  margin-top: 5px;
+  font-family: "Avenir W01 Light";
+  font-size: 12px;
+}
+.ps-fees-3 {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.ps-fees-3 p {
+  font-family: "Avenir W01 Heavy";
+  font-weight: bold;
+  font-size: 13px;
+}
+.ps-fees-4 {
+  margin-left: 15px;
+}
+.ps-fees-4 input {
+  height: 28px;
+  padding: 0 7px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 15px;
+  border: 2px solid #ebebeb;
+  max-width: 180px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.ps-fees-5 {
+  margin-left: 15px;
+}
+.ps-fees-5 p {
+  margin-top: 5px;
+  font-family: "Avenir W01 Light";
+  font-size: 12px;
+}
+.ps-fees-6 {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.ps-fees-6 p {
+  font-family: "Avenir W01 Heavy";
+  font-weight: bold;
+  font-size: 13px;
+}
+.ps-fees-7 {
+  margin-left: 15px;
+}
+.ps-fees-7 input {
+  height: 28px;
+  padding: 0 7px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 15px;
+  border: 2px solid #ebebeb;
+  max-width: 180px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.ps-fees-8 {
+  display: flex;
+  margin-left: 15px;
+  align-items: start;
+}
+.ps-fees-8 p {
+  font-family: "Avenir W01 Heavy";
+  font-weight: bold;
+  font-size: 13px;
+}
+.information-svg {
+  width: 13px;
+  height: 13px;
+  margin-left: 2px;
+}
+.information-svg svg {
+  width: 13px;
+  height: 13px;
+}
+.ps-fees-9 {
+  margin-left: 15px;
+}
+.ps-fees-9 select {
+  width: 240px;
+  border: 2px solid #ebebeb;
+  height: 34px;
+  font-size: 15px;
+}
+
+.ps-fees-9 option {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  width: 240px;
+  height: 34px;
+}
+
+.ps-fees-9 option:hover {
+  background-color: black;
+  color: white;
+}
+.ps-fees-10 {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 15px;
+}
+.ps-fees-10-t p {
+  font-family: "Avenir W01 Heavy";
+  font-size: 11px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.ps-fees-10-pr p {
+  font-family: "Avenir W01 Light";
+  font-weight: bold;
+  font-size: 32px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ps-fees-10-pr span {
+  margin-right: 5px;
+}
+.ss-fees {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.alvl-fees {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.calculator-3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+.calculator-3 p {
+  font-family: "Helvetica W01 Bold";
+  font-size: 16px;
+  color: white;
+  padding-bottom: 30px;
+}

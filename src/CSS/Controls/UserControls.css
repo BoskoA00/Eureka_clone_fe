@@ -1,0 +1,104 @@
+.usersControls-main {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  align-items: center;
+}
+
+.usersControls-zero-container,
+.usersControls-container {
+  width: 90%;
+  border: 1px solid gray;
+  height: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 3px 3px gray, -1em 0 0.4em gray;
+}
+
+.usersControls-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.usersControls-table-div {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.usersControls-table {
+  width: 90%;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.usersControls-table th,
+.usersControls-table td {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.usersControls-table th {
+  background-color: #f2f2f2;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.usersControls-table a {
+  text-decoration: none;
+  color: black;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.userOptions-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.deleteUser-button,
+.promoteUser-button {
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.deleteUser-button {
+  background-color: rgb(214, 42, 42);
+}
+
+.promoteUser-button {
+  background-color: #0d5eba;
+}
+.search-input {
+  width: 300px;
+  margin: 10px 10px;
+}
+
+.search-input input {
+  width: 90%;
+  height: 30px;
+  border: 3px solid #0d5eba;
+  border-radius: 20px;
+  padding-left: 5px;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  font-size: 18px;
+}

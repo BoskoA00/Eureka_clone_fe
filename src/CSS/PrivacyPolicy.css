@@ -1,0 +1,54 @@
+.pp-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pp-1 {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  margin-top: 50px;
+  padding-bottom: 60px;
+}
+.pp-1 h5 {
+  color: RGB(9, 63, 124);
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+}
+.pp-1 h6 {
+  color: RGB(9, 63, 124);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.pp-1 p {
+  color: RGB(9, 63, 124);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.pp-1 ul {
+  margin-left: 30px;
+  color: RGB(9, 63, 124);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.pp-1 li {
+  color: RGB(9, 63, 124);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.pp-1 a {
+  color: RGB(9, 63, 124);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  text-decoration: none;
+}

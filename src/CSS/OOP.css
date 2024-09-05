@@ -1,0 +1,146 @@
+.oop-main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.oop-1 {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid RGB(9, 63, 124);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.oop-1 h2 {
+  color: RGB(9, 63, 124);
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+}
+.oop-2 {
+  width: 100%;
+  background-color: RGB(13, 94, 186);
+  padding-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.oop-2-1 {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.oop-2-1 p {
+  font-size: 16px;
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+  color: white;
+}
+.oop-2-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 500px;
+}
+.oop-2-2 button {
+  margin-left: 50px;
+  width: 152px;
+  height: 34px;
+  background-color: rgb(9 63 124);
+  border: none;
+  color: white;
+  transition: var(color 0.4s ease 0s, color 0.4s ease 0s);
+  margin-bottom: 15px;
+}
+.oop-2-2 button:hover {
+  transition: var(color 0.4s ease 0s, color 0.4s ease 0s);
+  background-color: white;
+  color: rgb(9 63 124);
+}
+.oop-2-2 a {
+  color: white;
+  text-decoration: none;
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+  font-size: 12px;
+}
+.oop-2-2 a:hover {
+  color: rgb(9 63 124);
+}
+.oop-3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  background-color: #041f3e;
+}
+.oop-3-divs {
+  width: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.oop-3-div {
+  width: 234px;
+  height: 222px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 5px;
+  align-self: start;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.oop-3-div-text {
+  background-color: white;
+  opacity: 0.8;
+  width: 215px;
+  margin-bottom: 30px;
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.oop-3-div-text p {
+  text-decoration: none;
+  color: rgb(9 63 124);
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.oop-3-div-text a {
+  text-decoration: none;
+  color: rgb(9 63 124);
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .oop-2-1 {
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  .oop-3-divs {
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+}

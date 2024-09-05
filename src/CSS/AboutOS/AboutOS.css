@@ -1,0 +1,254 @@
+.aos-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.aos-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.aos-1-1 {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 519px;
+}
+.aos-1-1-title {
+  text-align: center;
+  font-size: 26px;
+  color: rgb(9, 63, 124);
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+}
+.aos-1-1-texts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.aos-1-1-texts h6 {
+  line-height: normal;
+  text-align: justify;
+  font-size: 20px;
+  color: RGB(9, 63, 124);
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.aos-1-2 {
+  width: 267px;
+  height: 365px;
+  background-image: url("../../Images/logo.png");
+  background-size: cover;
+  margin-top: 40px;
+}
+.aos-2 {
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aos-2 h2 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 26px;
+  color: rgb(9, 63, 124);
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+}
+.aos-2-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aos-2-1-line {
+  border: 2px solid rgb(9, 63, 124);
+  margin-top: 15px;
+  width: 50px;
+}
+.aos-2-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.aos-2-2-1 {
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aos-2-2-1-text {
+  line-height: normal;
+  text-align: justify;
+  font-size: 30px;
+  color: RGB(9, 63, 124);
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  margin-top: 20px;
+  width: 239px;
+  height: auto;
+  text-align: center;
+}
+.aos-2-2-1-image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 216px;
+  height: 217px;
+}
+.aos-2-2-1-image img {
+  width: 216px;
+  height: 217px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.aos-2-3 h6 {
+  line-height: normal;
+  text-align: justify;
+  font-size: 20px;
+  color: RGB(9, 63, 124);
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  margin-top: 20px;
+  width: 849px;
+  height: auto;
+  text-align: justify;
+}
+.aos-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+}
+.aos-3-teachers-divs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+.aos-3-teacher-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aos-3-teacher {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.aos-3-teacher-IaS {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.aos-3-teacher-NaI {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.aos-3-teacher-N {
+  background-color: rgb(13, 94, 186);
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 182px;
+  height: 50px;
+  font-size: 22px;
+  align-items: center;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.aos-3-teacher-N:hover {
+  cursor: pointer;
+  background-color: rgb(178, 224, 187);
+  color: rgb(13, 94, 186);
+  transition: var(
+    --trans1,
+    border-color 0.4s ease 0s,
+    background-color 0.4s ease 0s
+  );
+}
+.aos-3-teacher-I {
+  width: 182px;
+  height: 218px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.aos-3-teacher-I img {
+  width: 182px;
+  height: 218px;
+}
+.aos-3-teacher-S {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aos-3-teacher-S-1 {
+  margin-top: 15px;
+}
+.aos-3-teacher-S-1 span {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  color: RGB(9, 63, 124);
+}
+.aos-3-teacher-S-2 {
+  width: 120px;
+  margin-bottom: 40px;
+  padding-left: 5px;
+}
+.aos-3-teacher-S-2 span {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  color: RGB(9, 63, 124);
+}
+.aos-3-teacher-bios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 220px;
+  text-align: justify;
+  color: RGB(9, 63, 124);
+  font-size: 16px;
+  margin-top: 20px;
+}
+.aos-3-teacher-bios-1 {
+  margin-bottom: 20px;
+}
+.bios-more {
+  margin-bottom: 20px;
+}
+@media (max-width: 1000px) {
+  .aos-1 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aos-1-1 {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .aos-2-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aos-2-3 {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+}

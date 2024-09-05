@@ -1,0 +1,74 @@
+.myCoursesMain {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.myCourses-zero,
+.myCourses-container {
+  width: 90%;
+  border: 1px solid gray;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 3px 3px gray, -1em 0 0.4em gray;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  overflow-y: auto;
+}
+.tableMC-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 40px;
+}
+.tableMc {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.tableMc tr {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.tableMc td {
+  width: 50%;
+}
+.tableMc a {
+  text-decoration: none;
+  color: black;
+}
+.unenroll-button {
+  background-color: rgb(214, 42, 42);
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  font-weight: bold;
+}
+.search-input {
+  width: 300px;
+  margin: 10px 10px;
+}
+
+.search-input input {
+  width: 90%;
+  height: 30px;
+  border: 3px solid #0d5eba;
+  border-radius: 20px;
+  padding-left: 5px;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  font-size: 18px;
+}

@@ -1,0 +1,56 @@
+.controlsMenu-main-closed {
+  border-radius: 50px;
+  position: fixed;
+  left: 10px;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+}
+.controlsMenu-opened {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  position: fixed;
+  left: 10px;
+  top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  align-items: start;
+  background-color: white;
+  z-index: 1;
+}
+.controlsMenu-close-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+.controlsMenu-nav-ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  width: 150px;
+}
+.controlsMenu-nav-li {
+  font-size: 18pt;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  border-top: 1px solid gray;
+  width: 100%;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.controlsMenu-nav-li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.controlsMenu-nav-li:hover {
+  background-color: rgba(47, 47, 186, 0.125);
+  cursor: pointer;
+}

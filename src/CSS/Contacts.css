@@ -1,0 +1,225 @@
+.c-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.c-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.c-1 iframe {
+  width: 100%;
+  height: 450px;
+}
+.c-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+.c-2-title {
+  margin-bottom: 15px;
+  margin-right: 100px;
+}
+.c-2 h1 {
+  text-align: center;
+  font-size: 26px;
+  color: rgb(9, 63, 124);
+  font-family: "Helvetica W01 Bold", Arial, sans-serif;
+}
+.c-2-button {
+  margin-top: 20px;
+  left: 17rem;
+  top: 11rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.2s ease, visibility 0s;
+  border-radius: 50px;
+  background-image: url("../bcgImgs/button-background.jpg");
+  background-repeat: no-repeat;
+  width: 422px;
+  height: 82px;
+  cursor: pointer;
+  text-align: center;
+}
+.c-2-button:hover {
+  background-position-x: -500px;
+  background-position-y: -500px;
+}
+.c-2 a {
+  transition: inherit;
+  font-family: "Playfair W01 Bold", playfair display, serif;
+  color: #ffffff;
+  letter-spacing: 0.15em;
+  width: 100%;
+  font-size: 25px;
+  text-decoration: none;
+}
+.c-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.c-3-1 {
+  width: 402px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 25px;
+}
+.c-3-1 p {
+  line-height: 1.6em;
+  font-size: 18px;
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+  color: RGB(9, 63, 124);
+}
+.c-3-2 {
+  width: 309px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 150px;
+}
+.c-3-2 p {
+  font-size: 14px;
+  line-height: 1.6em;
+  color: RGB(9, 63, 124);
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.c-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.c-4-1 {
+  width: 473px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.c-4-1 form {
+  width: 473px;
+  padding-left: 110px;
+}
+.c-4-1 div {
+  margin-bottom: 10px;
+}
+.c-4-1 input {
+  font-family: "Futura W01 Medium";
+
+  border: 2px solid blue;
+  background-color: transparent;
+  color: blue;
+  width: 380px;
+  font-size: 15px;
+  padding: 5px 10px 5px 12px;
+}
+.c-4-1 textarea {
+  border: 2px solid blue;
+  background-color: transparent;
+  color: blue;
+  width: 380px;
+  font-size: 15px;
+  padding: 5px 10px 5px 12px;
+  height: 128px;
+  resize: none;
+  font-family: "Futura W01 Medium";
+}
+.c-4-f-submit {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10 0px;
+}
+.c-4-f-submit button {
+  background-color: rgb(26 45 243);
+  color: white;
+  font-size: 16px;
+  font-family: "Futura W01 Medium";
+  font-weight: 700;
+  width: 93px;
+  height: 30px;
+  border: none;
+  margin-right: 100px;
+}
+.c-4-f-submit button:hover {
+  background-color: rgb(26 45 243 / 45%);
+}
+.c-4-2 {
+  width: 337px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 185px;
+}
+.c-4-2-line {
+  border: 2px solid blue;
+  width: 10%;
+  margin-bottom: 30px;
+  align-self: flex-start;
+  margin-left: 1%;
+}
+.c-4-2 p {
+  line-height: 1.6em;
+  font-size: 18px;
+  color: RGB(9, 63, 124);
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.c-4-2 a {
+  text-decoration: none;
+  line-height: 1.6em;
+  font-size: 18px;
+  color: RGB(9, 63, 124);
+  font-family: "Helvetica W01 Light", Arial, sans-serif;
+}
+.c-f-name {
+  display: flex;
+  flex-direction: column;
+}
+.c-f-email {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1000px) {
+  .c-1 iframe {
+    width: 100%;
+  }
+  .c-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .c-2-title {
+    margin-right: 0;
+  }
+  .c-3 {
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .c-4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .c-4-2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
